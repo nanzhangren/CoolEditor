@@ -1,0 +1,28 @@
+{
+  "name": "embeddededitor",
+  "version": "1.0.0",
+  "description": "This is an editor library. You can add it to your page, or embedded to an app.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanzhangren/EmbeddedEditor.git"
+  },
+  "keywords": [
+    "editor",
+    "editable",
+    "div"
+  ],
+  "author": "Zero Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanzhangren/EmbeddedEditor/issues"
+  },
+  "homepage": "https://github.com/nanzhangren/EmbeddedEditor#readme"
+}
