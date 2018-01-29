@@ -1,0 +1,29 @@
+/* extra small screen style */ 
+.editor-default-size {
+    width: 100%;
+    height: 100%;
+}
+/* extra small screen style end */
+
+/* small screen style */
+@media (min-width: 768px) {
+    .editor-default-size {
+        width: 600px;
+        height: 360px;
+    }
+}
+/* small screen style end */
+
+/* medium screen style */
+@media (min-width: 1024px) {
+    .editor-default-size {
+        width: 900px;
+        height: 580px;
+    }
+}
+/* medium screen style end */
+
+/* large screen style */
+@media (min-width: 1200px) {
+}
+/* large screen style end */
