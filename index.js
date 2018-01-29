@@ -1,8 +1,10 @@
-import { createElement } from './src/util.js';
-import { Body } from './src/body.js';
-import { Header } from './src/header.js';
 
-class EmbeddedEditor {
+var util = {
+    local_document: document,
+    createElement: () => { return util.local_document.createElement; }
+};
+
+class CoolEditor {
     constructor(host, width, height) {
         var _this = this;
         _this.host = host;
@@ -25,4 +27,4 @@ class EmbeddedEditor {
     }
 }
 
-module.exports = EmbeddedEditor;
+module.exports = CoolEditor;
