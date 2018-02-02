@@ -48,7 +48,7 @@ class CoolEditor {
         _this.host.appendChild(containerEle);
         containerEle.className = 'editor-default-size';
         if (isDefined(_this.width)) {
-            e(containerEle).
+            e(containerEle).width(_this.width);
         }
     }
 }
