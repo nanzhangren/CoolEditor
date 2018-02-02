@@ -6,4 +6,4 @@ This is an editor library. You can add it to your page, or embedded to an app.
 - Firefox
 - IE11+
 - Edge
-- Not test for other browsers
+- No test for other browsers
