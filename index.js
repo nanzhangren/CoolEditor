@@ -25,7 +25,7 @@ DOMOperator.domStyleProcessor = (property) => {
         ele.style[property] = value + 'px';
     };
 };
-var e = DOMOperator;
+var _ = DOMOperator;
 
 
 class CoolEditor {
@@ -48,7 +48,7 @@ class CoolEditor {
         _this.host.appendChild(containerEle);
         containerEle.className = 'editor-default-size';
         if (isDefined(_this.width)) {
-            e(containerEle).width(_this.width);
+            _(containerEle).width(_this.width);
         }
     }
 }
