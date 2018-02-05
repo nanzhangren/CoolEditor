@@ -1,7 +1,8 @@
+var keyword_undefined = undefined;
 
 var util = {
     createElement: (nodeName) => document.createElement(nodeName),
-    isDefined: (value) => value === undefined
+    isDefined: (value) => value === keyword_undefined
 };
 
 var createElement = util.createElement, isDefined = util.isDefined,
