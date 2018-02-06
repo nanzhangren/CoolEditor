@@ -51,6 +51,9 @@ class CoolEditor {
         if (isDefined(_this.width)) {
             _(containerEle).width(_this.width);
         }
+        if (isDefined(_this.height)) {
+            _(containerEle).height(_this.height);
+        }
     }
 }
 
