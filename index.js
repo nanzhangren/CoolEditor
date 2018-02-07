@@ -39,8 +39,7 @@ class CoolEditor {
     }
 
     create() {
-        var _this = this;
-        _this.createContainer();
+        this.createContainer();
     }
 
     createContainer () {
