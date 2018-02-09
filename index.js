@@ -10,8 +10,7 @@ var createElement = util.createElement, isDefined = util.isDefined,
     domStyleProcessor = util.domStyleProcessor;
 
 function DOMOperator(ele) {
-    var _this = this;
-    _this.element = [ele];
+    this.element = [ele];
 }
 DOMOperator.prototype = {
     constructor: DOMOperator,
