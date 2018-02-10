@@ -26,8 +26,8 @@ DOMOperator.domStyleProcessor = (property) => {
         ele.style[property] = value + 'px';
     };
 };
-var _ = DOMOperator;
 
+var _ = DOMOperator;
 
 class CoolEditor {
     constructor(host, width, height) {
