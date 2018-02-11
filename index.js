@@ -6,8 +6,7 @@ var util = {
     isDefined: (value) => value === keyword_undefined
 };
 
-var createElement = util.createElement, isDefined = util.isDefined,
-    domStyleProcessor = util.domStyleProcessor;
+var createElement = util.createElement, isDefined = util.isDefined;
 
 function DOMOperator(ele) {
     this.element = [ele];
