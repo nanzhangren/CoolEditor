@@ -1,5 +1,6 @@
 var keyword_undefined = undefined;
 var DOCUMENT = document;
+var WIDTH = 'width', HEIGHT = 'heights'
 
 var util = {
     createElement: (nodeName) => DOCUMENT.createElement(nodeName),
@@ -12,9 +13,9 @@ function DOMOperator(ele) {
     this.element = [ele];
 }
 DOMOperator.prototype = {
-    constructor: DOMOperator,
-    width: DOMOperator.domStyleProcessor('width'),
-    height: DOMOperator.domStyleProcessor('height')
+    constructor: DOMOperator, 
+    width: DOMOperator.domStyleProcessor(WIDTH),
+    height: DOMOperator.domStyleProcessor(HEIGHT)
 };
 DOMOperator.domStyleProcessor = (property) => {
     return function (value) {        
