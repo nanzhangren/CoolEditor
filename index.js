@@ -18,7 +18,7 @@ DOMOperator.prototype = {
     height: DOMOperator.domStyleProcessor(HEIGHT)
 };
 DOMOperator.domStyleProcessor = (property) => {
-    return function (value) {        
+    return function (value) {
         var ele = this.element[0];
         if (arguments.length === 0) {
             return parseInt(ele.style[property]);
@@ -47,11 +47,12 @@ class CoolEditor {
         var containerEle = createElement('div');
         _this.host.appendChild(containerEle);
         containerEle.className = 'editor-default-size';
+        var _containerEle = _(containerEle);
         if (isDefined(_this.width)) {
-            _(containerEle).width(_this.width);
+            _containerEle.width(_this.width);
         }
         if (isDefined(_this.height)) {
-            _(containerEle).height(_this.height);
+            _containerEle.height(_this.height);
         }
     }
 }
