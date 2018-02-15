@@ -1,6 +1,6 @@
 var keyword_undefined = undefined;
 var DOCUMENT = document;
-var WIDTH = 'width', HEIGHT = 'heights'
+var WIDTH = 'width', HEIGHT = 'height', PX = 'px';
 
 var util = {
     createElement: (nodeName) => DOCUMENT.createElement(nodeName),
@@ -23,7 +23,7 @@ DOMOperator.domStyleProcessor = (property) => {
         if (arguments.length === 0) {
             return parseInt(ele.style[property]);
         }
-        ele.style[property] = value + 'px';
+        ele.style[property] = value + PX;
     };
 };
 
