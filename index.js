@@ -1,6 +1,7 @@
 var keyword_undefined = undefined;
 var DOCUMENT = document;
 var WIDTH = 'width', HEIGHT = 'height', PX = 'px';
+var DEFAULT_BACKGROUND_COLOR = 'white', DEFAULT_COLOR = 'black';
 
 var util = {
     createElement: (nodeName) => DOCUMENT.createElement(nodeName),
@@ -13,7 +14,7 @@ function DOMOperator(ele) {
     this.element = [ele];
 }
 DOMOperator.prototype = {
-    constructor: DOMOperator, 
+    constructor: DOMOperator,
     width: DOMOperator.domStyleProcessor(WIDTH),
     height: DOMOperator.domStyleProcessor(HEIGHT)
 };
