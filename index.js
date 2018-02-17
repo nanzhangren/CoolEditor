@@ -56,6 +56,8 @@ class CoolEditor {
             _containerEle.height(_this.height);
         }
     }
+
+    // There is still lots of things to do!
 }
 
 module.exports = CoolEditor;
