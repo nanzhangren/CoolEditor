@@ -40,10 +40,6 @@ class CoolEditor {
     }
 
     create() {
-        this.createContainer();
-    }
-
-    createContainer () {
         var _this = this;
         var containerEle = createElement('div');
         _this.host.appendChild(containerEle);
